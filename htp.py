@@ -50,5 +50,22 @@ def do_GET(self):
 
         except:
 
-            pass     
+            pass 
+
+
+       def main(NameVirtualHost)
+         try:
+           virtualhost=string.split(NameVirtualHost, "*")
+           if virtualhost[0] =="*"
+              virtualhost[0]=""
+           server =HTTPServer((virtualhost[0], int(virtualhost[1]) ), http)
+           print 'Start server in %s' % NameVirtualHost
+           server.server_forever()
+
+          except   KeyboardInterrupt:
+          print 'closing'
+          server.socket.close()
+
+
+ 
       
